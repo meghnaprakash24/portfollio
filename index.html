@@ -1,17 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meghna Prakash - Portfolio</title>
-    <meta name="description" content="Personal portfolio website of Meghna Prakash, Software Engineer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghna Prakash - Business Analytics Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">MP</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Meghna Prakash</h1>
+            <p class="typewriter">Business Analytics Professional</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Contact Me</a>
+                <a href="#about" class="secondary-button">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about glass-card">
+        <h2>About Me</h2>
+        <p>Incoming Masters of Business Analytics student at University of Irvine California, with a strong foundation in Management Information Systems and Business Analytics.</p>
+        <div class="skills">
+            <h3>Top Skills</h3>
+            <div class="skill-tags">
+                <span>Assistant Work</span>
+                <span>Financial Management</span>
+                <span>Management</span>
+                <span>Data Analysis</span>
+                <span>Project Management</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item glass-card">
+                <h3>Student Assistant</h3>
+                <p>College of Continuing Education (CCE) at Sacramento State</p>
+                <p class="date">January 2024 - Present</p>
+            </div>
+            <div class="timeline-item glass-card">
+                <h3>Treasurer</h3>
+                <p>Master of Science in Business Analytics Association</p>
+                <p class="date">August 2023 - Present</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education glass-card">
+        <h2>Education</h2>
+        <div class="edu-item">
+            <h3>California State University-Sacramento</h3>
+            <p>Bachelor's degree, Management Information Systems and Business Analytics</p>
+            <p class="date">August 2021 - December 2024</p>
+        </div>
+        <div class="certifications">
+            <h3>Certifications & Awards</h3>
+            <ul>
+                <li>Level 4: Excel Black Belt</li>
+                <li>Foundations of Project Management</li>
+                <li>Allen J. Rosoff Memorial Scholarship</li>
+                <li>Faculty Endowment Award</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact glass-card">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <a href="mailto:meghnaprakash24@gmail.com" class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>meghnaprakash24@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/meghnaprakash-1b64a1291" class="contact-item" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
